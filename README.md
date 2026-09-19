@@ -15,9 +15,7 @@ This formula makes 3 primary assumptions:
 It primarily takes into account the frequency of the preceding and succeeding classes to find out where the actual mode is, in a continuous data.
 
 However, if the main goal is to take the frequency of the preceding and succeeding class into consideration that acts as a "Push" or "Pull" of the modal value in the current class, we can achieve the same goals with a weighted means approach. Consider the following graph:
-
-
-
+![Class-interval frequency distribution of heights](Mljsx_Concept_Frequency_Distribution_1.png)
 It's a class-interval frequency distribution. The mode is directly located at the class interval $(64\text{–}65.9)$. However, in a continuous data, the mode will not be exactly at the center of the class, i.e. $76.98$. Rather it will be towards the **left** as the preceding class has a higher frequency. Intuitively, we can come up with a weighted mean approach to solve this. Using the formula:
 
 $$
